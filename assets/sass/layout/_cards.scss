@@ -1,0 +1,21 @@
+.cards{
+
+&__videos{
+  padding: .4rem;
+}
+  &__videos img {
+    width: 100%;
+    height: auto;
+    margin: .3rem;
+    padding: .5rem;
+  }
+  &__videos2 img{
+    width: 100%;
+    height: auto;
+    margin: .3rem;
+    padding: .5rem;
+  }
+  &__videos2{
+    padding: .4rem;
+  }
+  }

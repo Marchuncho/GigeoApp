@@ -1,0 +1,46 @@
+h1{
+  font-family: $raleway;
+  font-size: $x-large;
+  font-weight: $bold;
+  color: $raisingblack;
+}
+span{
+  font-weight: $regular;
+  color: $onix;
+
+}
+.profile__name{
+  font-family: $raleway;
+  font-weight: $bold;
+  font-size: $medium;
+  color: $raisingblack;
+   .followme{
+       font-family: $raleway;
+       font-weight: $regular;
+       font-size: $x-small;
+       color: $gray;
+      }
+  }
+h2{
+  font-family: $open;
+  font-size: $large;
+  font-weight: $regular;
+  color: $raisingblack;
+}
+h3{
+  font-family: $raleway;
+  font-weight: $bold;
+  font-size: $large;
+  color: $raisingblack;
+}
+p{
+  font-family: $raleway;
+  font-weight: $regular;
+  font-size: $medium;
+  color: $nickel;
+}
+@media only screen and (max-width:768px){
+h2{
+  text-align: center;
+}
+}

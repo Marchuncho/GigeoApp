@@ -1,0 +1,36 @@
+.profile{
+
+&__girl{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+
+}
+  &__image img{
+    border-radius: 100%;
+    width: $xxxxxx-large;
+    padding: 1rem;
+  }
+  &__name {
+    position: absolute;
+    left: 15rem;
+    padding-top: 2rem;
+
+  }
+  &__buttons{
+    display: flex;
+    padding-top: 2rem;
+    padding-right: 2rem;
+    right: 0;
+  }
+  &__buttons--boton1{
+    padding-right: 2rem;
+}
+    &__buttons--boton2{
+    }
+}
+@media only screen and (max-width:768px){
+  .profile__name{
+    left: 9rem;
+  }
+}

@@ -1,0 +1,33 @@
+.navigation{
+  height: 18vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &__logo{
+    height: auto;
+    padding-left: 2rem;
+  }
+  &__list {
+  display: flex;
+    }
+    &__item{
+    padding: 1rem;
+    }
+    &__item1{
+      padding: 1rem;
+    }
+}
+span{
+font-size: $x-small;
+position: absolute;
+}
+@media only screen and (max-width:768px){
+.navigation__item{
+  display: none;
+}
+.navigation__item1{
+  font-size: $xxx-large;
+  padding-right: 3rem;
+  }
+}

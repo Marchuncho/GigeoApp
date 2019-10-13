@@ -1,0 +1,19 @@
+button{
+  background-color: $ballblue;
+  font-size: $large;
+  color: $white;
+  font-weight: $regular;
+}
+.colors{
+  background-color: $darksalmon;
+  font-size: $large;
+    color: $white;
+    font-weight: $regular;
+
+}
+
+@media only screen and (max-width:768px){
+.profile__buttons{
+  display: none;
+}
+}

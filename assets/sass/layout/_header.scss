@@ -1,0 +1,29 @@
+.header{
+  width: 100%;
+  height: 15rem;
+
+&__container{
+display: flex;
+width: 100%;
+}
+ &__bannerImage img{
+height: 15rem;
+width: 100%;
+
+  }
+  }
+.objectFit{
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+.hr {
+  height: 1px;
+  background-color: $lavendergray;
+  width: 100%;
+}
+@media only screen and (max-width:768px){
+.hr{
+  display: none;
+}
+}
